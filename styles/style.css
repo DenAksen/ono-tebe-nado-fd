@@ -26,7 +26,6 @@
 
 .header__link_active {
     text-decoration: none;
-
 }
 
 .header__logo {
@@ -49,7 +48,7 @@
 
 .cover {
     position: relative;
-    z-index: -1;
+    z-index: 0;
     background: url(../images/cover.jpg) center/cover no-repeat;
     padding:165px 50px 50px;
     min-height: 757px;
@@ -68,7 +67,6 @@
     flex-direction: column;
     gap: 20px;
     color: #fff;
-    font-family: 'Raleway';
     font-weight: bold;
     font-size: 100px;
     line-height: 115px;
@@ -135,13 +133,10 @@
     min-height: 596px;
 }
 
-.card-link .card {
-    height: 100%;
-} 
-
 .card {
+    height: 100%;
     position: relative;
-    z-index: -1;
+    z-index: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
